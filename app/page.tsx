@@ -49,6 +49,18 @@ export default function Home() {
 
         <div className="container-custom relative z-10">
           <div ref={heroContent.ref} className={`max-w-4xl mx-auto text-center hero-animate ${heroContent.isVisible ? 'is-visible' : ''}`}>
+            {/* Logo */}
+            <div className="mb-8 flex justify-center">
+              <Image
+                src="/images/logo2-gabriella.svg"
+                alt="Gabriella B. Engelhardt"
+                width={200}
+                height={80}
+                className="drop-shadow-lg"
+                priority
+              />
+            </div>
+
             {/* Badge CRP */}
             <div className="inline-flex items-center bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full mb-6 shadow-sm">
               <svg className="w-4 h-4 text-verde-mar-600 mr-2" fill="currentColor" viewBox="0 0 20 20">

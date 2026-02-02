@@ -55,11 +55,15 @@ export default function HistoriaPage() {
 
                 <div className="space-y-6 text-cinza-700 leading-relaxed">
                   <p className="text-lg">
-                    Me chamo Gabriella, tenho 23 anos. Sou psicóloga formada, mas atuo na área há 10 anos, acompanhando os passos de minha mãe, também psicóloga. Acompanhei diversos casos, e cresci com eles. Tenho paixão por este trabalho, por este caminho, por essa vocação.
+                    Me chamo Gabriella, sou psicóloga formada e mãe. Atuo na área há 10 anos, acompanhando desde cedo os passos de minha mãe, também psicóloga. Cresci em contato com a prática clínica, acompanhando diferentes histórias e aprendizados que contribuíram para a construção do meu olhar profissional.
                   </p>
 
                   <p className="text-lg">
-                    Atuo pela abordagem sistêmica, vejo você como alguém além de si mesmo, mas também tudo que lhe cerca, por tudo que faz e fez.
+                    A maternidade aprofundou ainda mais minha sensibilidade para compreender os vínculos, os ciclos de desenvolvimento e os desafios emocionais que atravessam indivíduos e famílias. Tenho paixão por este trabalho, por este caminho e por essa vocação.
+                  </p>
+
+                  <p className="text-lg">
+                    Atuo pela abordagem sistêmica, compreendendo cada pessoa como alguém que vai além de si mesma, inserida em uma rede de relações, histórias e contextos que influenciam quem ela é, o que vive e como se constrói.
                   </p>
 
                   <div className="bg-cinza-50 p-6 rounded-xl mt-8">
@@ -67,7 +71,7 @@ export default function HistoriaPage() {
                       Abordagem Sistêmica
                     </h3>
                     <p className="text-cinza-700">
-                      Vejo cada pessoa como um quebra-cabeça único, formado por vivências e relações que se entrelaçam e dão sentido a aquele modo de ser. Para mim ninguém é "apenas" um indivíduo. Por isso ao olhar para alguém não vejo apenas sua trajetória, mas tudo que cerca sua vida.
+                      A abordagem sistêmico-familiar da psicologia compreende que cada pessoa faz parte de sistemas de relações — como a família, o casal e o contexto social — que influenciam diretamente seus sentimentos e comportamentos. Em vez de olhar apenas para o indivíduo isolado, essa abordagem busca entender os padrões de interação, comunicação e vínculos que se constroem nessas relações. O objetivo é promover mudanças mais amplas e duradouras, fortalecendo relações e ampliando possibilidades de bem-estar emocional.
                     </p>
                   </div>
 

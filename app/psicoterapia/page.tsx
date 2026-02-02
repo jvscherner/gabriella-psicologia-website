@@ -43,10 +43,27 @@ export default function PsicoterapiaPage() {
               </h2>
 
               <p className="text-lg text-cinza-700 leading-relaxed mb-6">
-                O foco do meu trabalho está no atendimento a <strong className="text-verde-mar-700">casais, crianças e mulheres</strong>, respeitando as particularidades de cada fase da vida e de cada configuração familiar.
+                O foco do meu trabalho está no atendimento <strong className="text-verde-mar-700">individual, de casais e crianças</strong>, respeitando as particularidades de cada fase da vida e de cada configuração familiar.
               </p>
 
               <div className="space-y-6">
+                {/* Terapia Individual */}
+                <div className="bg-white rounded-xl p-6">
+                  <div className="flex items-start mb-3">
+                    <div className="w-10 h-10 bg-verde-mar-500 rounded-full flex items-center justify-center mr-4 flex-shrink-0 mt-1">
+                      <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-semibold text-cinza-900 mb-2">Terapia Individual</h3>
+                      <p className="text-cinza-700 leading-relaxed">
+                        No atendimento individual, há espaço para acolher histórias, sobrecargas, dores silenciosas e processos de fortalecimento pessoal, independentemente de gênero.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
                 {/* Casais */}
                 <div className="bg-white rounded-xl p-6">
                   <div className="flex items-start mb-3">
@@ -56,7 +73,7 @@ export default function PsicoterapiaPage() {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="text-xl font-semibold text-cinza-900 mb-2">Casais</h3>
+                      <h3 className="text-xl font-semibold text-cinza-900 mb-2">Terapia de Casais</h3>
                       <p className="text-cinza-700 leading-relaxed">
                         Nos atendimentos com casais, o olhar se volta para a dinâmica da relação, a comunicação, os conflitos e os vínculos afetivos.
                       </p>
@@ -73,26 +90,9 @@ export default function PsicoterapiaPage() {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="text-xl font-semibold text-cinza-900 mb-2">Crianças</h3>
+                      <h3 className="text-xl font-semibold text-cinza-900 mb-2">Terapia Infantil</h3>
                       <p className="text-cinza-700 leading-relaxed">
                         Com crianças, o cuidado se estende ao contexto familiar, entendendo que o desenvolvimento emocional acontece sempre em relação.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Mulheres */}
-                <div className="bg-white rounded-xl p-6">
-                  <div className="flex items-start mb-3">
-                    <div className="w-10 h-10 bg-verde-mar-500 rounded-full flex items-center justify-center mr-4 flex-shrink-0 mt-1">
-                      <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                      </svg>
-                    </div>
-                    <div>
-                      <h3 className="text-xl font-semibold text-cinza-900 mb-2">Mulheres</h3>
-                      <p className="text-cinza-700 leading-relaxed">
-                        No acompanhamento de mulheres, há espaço para acolher histórias, sobrecargas, dores silenciosas e processos de fortalecimento pessoal.
                       </p>
                     </div>
                   </div>

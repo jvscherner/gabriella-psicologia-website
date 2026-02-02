@@ -39,11 +39,11 @@ export default function AvaliacaoPage() {
               </h2>
 
               <p className="text-lg text-cinza-700 leading-relaxed mb-6">
-                No meu trabalho, utilizo instrumentos de avaliação reconhecidos, como questionários de perfil e personalidade — entre eles <strong className="text-verde-mar-700">MBTI, Quati e DISC</strong> — além da <strong className="text-verde-mar-700">avaliação neuropsicológica</strong>, que investiga funções como atenção, memória, linguagem, raciocínio e funções executivas.
+                Em meu trabalho, utilizo instrumentos psicológicos reconhecidos pelo Conselho Federal de Psicologia (CFP), bem como técnicas complementares, selecionados de acordo com os objetivos da avaliação, a demanda apresentada e as características do(a) avaliado(a). Os instrumentos empregados possibilitaram a coleta de informações relevantes sobre aspectos cognitivos, emocionais, comportamentais e adaptativos, respeitando os princípios éticos e técnicos da prática psicológica.
               </p>
 
               <p className="text-lg text-cinza-700 leading-relaxed">
-                Cada ferramenta é escolhida de acordo com a necessidade de quem busca o atendimento, nunca de forma padronizada ou automática.
+                Os dados obtidos por meio dos instrumentos foram analisados de forma integrada, considerando-se também as informações provenientes da entrevista psicológica, observações clínicas e demais procedimentos adotados durante o processo avaliativo.
               </p>
             </div>
 
