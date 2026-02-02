@@ -49,16 +49,25 @@ export default function Home() {
 
         <div className="container-custom relative z-10">
           <div ref={heroContent.ref} className={`max-w-4xl mx-auto text-center hero-animate ${heroContent.isVisible ? 'is-visible' : ''}`}>
-            {/* Logo */}
+            {/* Logo com faixa branca */}
             <div className="mb-8 flex justify-center">
-              <Image
-                src="/images/logo2-gabriella.svg"
-                alt="Gabriella B. Engelhardt"
-                width={200}
-                height={80}
-                className="drop-shadow-lg"
-                priority
-              />
+              <div className="relative inline-flex items-center">
+                {/* Linha branca horizontal */}
+                <div className="absolute inset-0 flex items-center">
+                  <div className="w-full border-t-2 border-white/30"></div>
+                </div>
+                {/* Logo com fundo branco */}
+                <div className="relative bg-white/95 backdrop-blur-sm px-8 py-4 rounded-xl shadow-lg">
+                  <Image
+                    src="/images/logo2-gabriella.svg"
+                    alt="Gabriella B. Engelhardt"
+                    width={200}
+                    height={80}
+                    className="relative z-10"
+                    priority
+                  />
+                </div>
+              </div>
             </div>
 
             {/* Badge CRP */}
