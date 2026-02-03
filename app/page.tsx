@@ -60,7 +60,7 @@ export default function Home() {
                 <div className="relative bg-white/95 backdrop-blur-sm px-8 py-4 rounded-xl shadow-lg">
                   <Image
                     src="/images/logo2-gabriella.svg"
-                    alt="Gabriella B. Engelhardt"
+                    alt="Gabriella Engelhardt"
                     width={200}
                     height={80}
                     className="relative z-10"
@@ -131,7 +131,7 @@ export default function Home() {
               <div className="rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all hover:ring-2 hover:ring-vermelho-cardeal-500 hover:ring-offset-4">
                 <Image
                   src="/images/gabriella.jpg"
-                  alt="Gabriella B. Engelhardt - Psicóloga"
+                  alt="Gabriella Engelhardt - Psicóloga"
                   width={600}
                   height={600}
                   className="w-full h-auto object-cover"
@@ -143,7 +143,7 @@ export default function Home() {
             {/* Conteúdo */}
             <div className="order-1 md:order-2">
               <h2 className="text-3xl md:text-4xl font-serif font-bold text-cinza-900 mb-6">
-                Gabriella B. Engelhardt
+                Gabriella Engelhardt
               </h2>
               <p className="text-cinza-600 mb-6 leading-relaxed">
                 Vejo cada pessoa como um quebra-cabeça único, formado por vivências e relações que se entrelaçam e dão sentido a aquele modo de ser. Para mim ninguém é "apenas" um indivíduo. Por isso ao olhar para alguém não vejo apenas sua trajetória, mas tudo que cerca sua vida. Ser terapeuta, para mim, é além de incrível, onde posso fazer o que amo e ainda auxiliar as pessoas. Ser psicóloga é um passo ainda mais além. E estou aqui para ajudar.
@@ -240,6 +240,12 @@ function ServiceCards() {
       href: '/avaliacao'
     },
     {
+      title: 'NR-1 – Gestão de Riscos Ocupacionais',
+      description: 'A NR-1 estabelece diretrizes para identificar, avaliar e prevenir riscos no ambiente de trabalho, promovendo saúde mental, segurança e conformidade legal para empresas.',
+      icon: 'M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z',
+      href: '/nr1'
+    },
+    {
       title: 'Empresarial',
       description: 'Para empresas e pequenos negócios que desejam auxílio no desenvolvimento ou mesmo seleção de seus colaboradores. Forneço acompanhamento psicológico e a possibilidade de testes adequados a demanda.',
       icon: 'M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4',
@@ -248,7 +254,7 @@ function ServiceCards() {
   ];
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
       {cards.map((card, index) => (
         <div
           key={index}
