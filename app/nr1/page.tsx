@@ -44,6 +44,21 @@ export default function NR1Page() {
               </p>
             </div>
 
+            {/* Link para informações governamentais */}
+            <div className="bg-cinza-50 border-l-4 border-verde-mar-500 p-6 rounded-xl mb-12">
+              <p className="text-cinza-700 leading-relaxed">
+                Para mais informações legais/governamentais a respeito da norma, acesse o tópico:{' '}
+                <a
+                  href="https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/nr-1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-verde-mar-700 font-semibold hover:text-verde-mar-800 underline decoration-vermelho-cardeal-500 decoration-2 underline-offset-2 transition-all"
+                >
+                  Norma Regulamentadora No. 1 (NR-1)
+                </a>
+              </p>
+            </div>
+
             {/* CTA */}
             <div className="bg-gradient-to-br from-verde-mar-500 to-verde-mar-600 rounded-2xl p-8 md:p-10 text-center text-white">
               <h3 className="text-2xl md:text-3xl font-serif font-bold mb-4">
