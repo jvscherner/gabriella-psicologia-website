@@ -17,7 +17,7 @@ export default function Header() {
           {/* Logo / Nome */}
           <Link href="/" className="flex items-center">
             <h1 className="text-2xl font-serif font-bold text-verde-mar-700">
-              Gabriella B. Engelhardt
+              Gabriella Engelhardt
             </h1>
           </Link>
 

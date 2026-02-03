@@ -5,18 +5,18 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
-  title: "Gabriella B. Engelhardt - Psicóloga",
+  title: "Gabriella Engelhardt - Psicóloga",
   description: "Psicóloga dedicada ao acolhimento e cuidado do seu bem-estar emocional. Atendimento em psicoterapia, barras de access e avaliação psicológica.",
   keywords: ["psicóloga", "psicoterapia", "barras de access", "avaliação psicológica", "terapia"],
-  authors: [{ name: "Gabriella B. Engelhardt" }],
+  authors: [{ name: "Gabriella Engelhardt" }],
   viewport: "width=device-width, initial-scale=1, maximum-scale=5",
   themeColor: "#0d9488",
   openGraph: {
-    title: "Gabriella B. Engelhardt - Psicóloga",
+    title: "Gabriella Engelhardt - Psicóloga",
     description: "Atendimento psicológico humanizado com foco no seu desenvolvimento pessoal.",
     type: "website",
     locale: "pt_BR",
-    siteName: "Gabriella B. Engelhardt - Psicóloga"
+    siteName: "Gabriella Engelhardt - Psicóloga"
   },
   robots: {
     index: true,

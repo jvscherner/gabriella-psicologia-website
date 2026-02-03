@@ -27,7 +27,7 @@ export default function HistoriaPage() {
               <div className="rounded-2xl overflow-hidden shadow-lg sticky top-24 hover:shadow-2xl transition-all hover:ring-2 hover:ring-vermelho-cardeal-500 hover:ring-offset-4">
                 <Image
                   src="/images/gabriella.jpg"
-                  alt="Gabriella B. Engelhardt - Psicóloga"
+                  alt="Gabriella Engelhardt - Psicóloga"
                   width={600}
                   height={600}
                   className="w-full h-auto object-cover"
@@ -40,7 +40,7 @@ export default function HistoriaPage() {
               <div className="prose prose-lg max-w-none">
                 <div className="bg-verde-mar-50 p-6 rounded-xl mb-8">
                   <h2 className="text-2xl font-serif font-semibold text-cinza-900 mb-4 mt-0">
-                    Gabriella B. Engelhardt
+                    Gabriella Engelhardt
                   </h2>
                   <p className="text-cinza-700 mb-2">
                     <strong className="text-verde-mar-700">Psicóloga</strong>

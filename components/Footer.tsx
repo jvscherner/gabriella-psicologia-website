@@ -11,7 +11,7 @@ export default function Footer() {
           {/* Coluna 1 - Sobre */}
           <div>
             <h3 className="text-lg font-serif font-semibold text-cinza-800 mb-4">
-              Gabriella B. Engelhardt
+              Gabriella Engelhardt
             </h3>
             <p className="text-cinza-600 text-sm leading-relaxed">
               Psicóloga dedicada ao acolhimento e cuidado do seu bem-estar emocional.
@@ -101,7 +101,7 @@ export default function Footer() {
         <div className="border-t border-cinza-300 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-cinza-500 text-sm text-center md:text-left">
-              © {currentYear} Gabriella B. Engelhardt. Todos os direitos reservados.
+              © {currentYear} Gabriella Engelhardt. Todos os direitos reservados.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link
