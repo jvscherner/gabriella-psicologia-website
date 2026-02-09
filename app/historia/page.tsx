@@ -46,7 +46,7 @@ export default function HistoriaPage() {
                     <strong className="text-verde-mar-700">Psicóloga</strong>
                   </p>
                   <p className="text-cinza-600 text-sm mb-1">
-                    <strong>CRP:</strong> 77/77777
+                    <strong>CRP:</strong> 08/47253
                   </p>
                   <p className="text-cinza-600 text-sm">
                     <strong>Idade:</strong> 23 anos

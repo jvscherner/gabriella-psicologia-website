@@ -18,7 +18,7 @@ export default function Footer() {
               Atendimento humanizado com foco no seu desenvolvimento pessoal.
             </p>
             <p className="text-cinza-600 text-sm mt-3">
-              <strong>CRP:</strong> 77/77777
+              <strong>CRP:</strong> 08/47253
             </p>
           </div>
 
